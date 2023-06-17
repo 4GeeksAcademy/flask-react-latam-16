@@ -3,5 +3,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "workbench.editorAssociations": {   
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "python.formatting.provider": "none"
 }
